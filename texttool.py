@@ -26,6 +26,16 @@ def process_line(line):
 
 
 def main():
+    """
+        Boucle principale du programme.
+
+        Affiche un prompt et lit les lignes saisies par l'utilisateur.
+        Chaque ligne est transmise à process_line pour traitement,
+        puis le résultat est affiché.
+
+        La boucle prend fin lorsque l'utilisateur envoie EOF
+        (Ctrl+D sous Linux/macOS ou Ctrl+Z sous Windows).
+    """
     while True:
         try:
             line = input("commade> ")
