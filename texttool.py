@@ -1,5 +1,12 @@
 #!/usr/bin/env python3
+"""
+TextTool : petit outil en ligne de commande permettant
+d'appliquer différentes transformations sur un texte.
 
+Ce fichier contient la fonction process_line qui analyse
+les commandes entrées par l'utilisateur, ainsi que la boucle
+principale exécutée dans main().
+"""
 
 
 def process_line(line):
